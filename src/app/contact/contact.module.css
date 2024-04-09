@@ -1,0 +1,111 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .backgroundImage {
+    margin-top: -10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("/gala31.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .contactTitle {
+    font-size: 3rem; 
+    color: white;
+    margin-bottom: 1rem; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  }
+  
+  .formContainer {
+    width: 30%; 
+    text-align: center;
+    background-color: rgba(50, 49, 49, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%; 
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .additionalInfo h2 {
+    font-size: 2rem;
+    color: rgb(183, 134, 37);
+  }
+  
+  .contactForm button {
+    background-color: rgb(183, 134, 37);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+    border-radius: 5px;
+  }
+  
+  .detailsAndMapContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .eventInfo {
+    width: 50%; 
+    padding: 20px;
+  
+    font-size: 1.1rem;
+    color: rgb(183, 134, 37);
+  }
+  .eventInfo h2 {
+    color: rgb(183, 134, 37);
+    font-size: 2rem;
+  }
+  .mapContainer {
+    width: 70%; 
+    border-radius: 8px;
+  }
+  
+  .googleMap {
+    width: 100%;
+    height: 500px;
+    border: none;
+    color: #333;
+    border: 2px solid rgb(183, 134, 37);
+    border-radius: 5px;
+  }
+  
+  .mapTitle {
+    font-size: 1.5rem;
+    color: rgb(183, 134, 37);
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .formContainer,
+    .eventInfo,
+    .mapContainer {
+      width: 100%;
+    }
+  
+    .detailsAndMapContainer {
+      flex-direction: column;
+    }
+  
+    .googleMap {
+      height: 250px;
+    }
+  }
+  

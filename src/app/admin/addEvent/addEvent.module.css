@@ -1,0 +1,47 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: -50px;
+	padding: 400px;
+	background-color: white;
+	background: url("/gala19.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: bolder ;
+	color: rgba(141, 99, 14, 1); 
+	background-color: white;
+	color:  rgba(141, 99, 14, 1); 
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.container input,
+.container textarea {
+	padding: 20px;
+
+
+
+margin: 5PX;
+
+	background-color: #cccccc;
+	border: none;
+	border-radius: 5px;
+	color: var(--textColor);
+}
+
+.container button {
+	padding: 5px;
+	font-family:'Times New Roman', Times, serif;
+	cursor: pointer;
+	background-color: rgba(141, 99, 14, 1); 
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: bold;
+}

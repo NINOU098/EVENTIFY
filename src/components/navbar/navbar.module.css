@@ -1,0 +1,39 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding: 2rem 20px;
+  min-height: 150px;
+  text-align: center;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 5rem;
+  color: rgba(141, 99, 14, 1);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  max-width: 300px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .logoImage {
+    display: none;
+  }
+}
+

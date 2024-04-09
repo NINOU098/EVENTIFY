@@ -1,0 +1,226 @@
+
+.page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background: url("/cap11.webp") no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -80px;
+    
+  }
+  .hero {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 230vh;
+    width: 100wh;
+    background-size: cover;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 1;
+  
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  
+    text-align: center;
+    font-weight: bold;
+    color: rgb(153, 109, 21);
+    text-shadow: 1px 1px rgb(14, 13, 13);
+    transform: translate(-0%, -80%);
+  }
+  .hero .eventDescription {
+    font-size: 1.2rem;
+    color: rgba(250, 248, 248, 0.8);
+    text-shadow: 2px 3px rgba(141, 99, 14, 1);
+  
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    top: 20px;
+  }
+  .hero .eventDescription1 {
+    font-weight: bolder;
+    font-size: 2.5rem; 
+    color: rgba(141, 99, 14, 1);
+    text-shadow: 1px 1px rgba(243, 238, 238, 0.7);
+  }
+  .hero .eventDescription2 {
+    font-weight: 900px;
+    font-size: 4.5rem; 
+    color: rgba(141, 99, 14, 1);
+    text-shadow: 1px 1px rgba(250, 248, 248, 0.7);
+  }
+  
+  .hero .dateTitle {
+    font-size: 2rem; 
+    color: rgba(250, 248, 248, 0.8); 
+    text-shadow: 1px 1px 1px rgb(153, 109, 21);
+    position: absolute;
+    top: 80%; 
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .hero .des {
+    font-size: 1.4rem; 
+    color: rgba(255, 255, 255, 0.986);
+  
+    text-shadow: 1px 1px 1px rgb(153, 109, 21) rgba(0, 0, 0, 0.7);
+    font-weight: 900px;
+    position: absolute; 
+    top: 23%; 
+    left: 40%; 
+  }
+  
+  .hero p {
+    color: rgba(250, 248, 248, 0.8);
+    text-shadow: 2px 1px 5px rgb(122, 84, 7);
+    text-align: center;
+    top: 80%;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7);
+  }
+  .hero .event {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, 97%);
+  
+    width: 220%;
+    padding: 60px;
+  
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .buttonContainer2,
+  .buttonContainer3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transform: translate(-2%, 240%);
+  }
+  .eventDetails {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(250, 248, 248, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7);
+  }
+  
+  .eventDetails h2,
+  .eventDetails h3,
+  .eventDetails h4 {
+    color: rgb(153, 109, 21);
+    margin-bottom: 10px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7);
+    font-size: 2.5rem;
+  }
+  
+  .eventDetails p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(250, 248, 248, 0.8);
+    padding: 20px;
+    text-align: center;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.7);
+  }
+  
+  .tariffs {
+    text-align: center;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .sectionContent {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .tariffList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .tariffList li {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .page {
+      padding: 10px;
+      margin-top: -150px;
+      background-size: cover;
+    }
+  
+    .hero {
+      margin-top: 170px;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .hero p {
+      font-size: 1em;
+      padding: 0 10px;
+    }
+  
+    .eventDetails {
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  
+    .eventDetails h2,
+    .eventDetails h3,
+    .eventDetails h4 {
+      font-size: 1.5em;
+    }
+  
+    .footer {
+      padding: 15px;
+    }
+  
+    .sectionTitle {
+      font-size: 1.5em;
+    }
+  
+    .sectionContent,
+    .tariffList li {
+      font-size: 0.9em;
+    }
+  
+    .buttonContainer,
+    .buttonContainer2,
+    .buttonContainer3 {
+      flex-direction: column;
+    }
+  }
+  
