@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Contact.module.css";
+import styles from "./contact.module.css";
 
 const Contact = () => {
   return (
@@ -24,7 +24,7 @@ const Contact = () => {
             fashion galas, our team is dedicated to creating experiences that
             not only impress but also leave a lasting impression. Book with us
             and let us elevate your next event into a luxurious celebration. Get
-            in touch today, and let's start planning your event of elegance.
+            in touch today, and let&aposs start planning your event of elegance.
           </p>
         </div>
         <div className={styles.mapContainer}>
